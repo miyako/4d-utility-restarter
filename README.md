@@ -13,15 +13,18 @@ Command line program to restart 4D
 ### Example
 
 ```
-$path:="restarter"
+$path:=LEP_Escape_path (Get 4D folder(Database folder)+"restarter")
 $path:=$path+" -a "+LEP_Escape (Application file)
 $path:=$path+" -s "+LEP_Escape (Structure file(*))
 $path:=$path+" -d "+LEP_Escape (Data file)
 
-SET ENVIRONMENT VARIABLE("_4D_OPTION_CURRENT_DIRECTORY";Get 4D folder(Database folder))
 SET ENVIRONMENT VARIABLE("_4D_OPTION_BLOCKING_EXTERNAL_PROCESS";"false")
 
 LAUNCH EXTERNAL PROCESS($path)
+
+If (Application type=4D Server)
+QUIT 4D(0)
+End if 
 ```
 
 * For macOS 10.8 or later.
