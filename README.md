@@ -24,7 +24,7 @@ SET ENVIRONMENT VARIABLE("_4D_OPTION_BLOCKING_EXTERNAL_PROCESS";"false")
 LAUNCH EXTERNAL PROCESS($path)
 ```
 
-* For macOS 10.10 or later.
+* For macOS 10.8 or later.
 
 * By default, the timeout is ``180`` seconds. Pass the optional ``-t`` option for alternative settings.
 
