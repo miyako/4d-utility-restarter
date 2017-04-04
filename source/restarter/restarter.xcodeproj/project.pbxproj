@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1CC36A21E934B3F00A04568 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CC36A11E934B3F00A04568 /* main.m */; };
-		D1CC36AD1E9368F700A04568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CC36AC1E9368F700A04568 /* Foundation.framework */; };
-		D1CC36AF1E93690900A04568 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CC36AE1E93690900A04568 /* CoreFoundation.framework */; };
-		D1CC36B11E93691000A04568 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CC36B01E93691000A04568 /* Cocoa.framework */; };
+		D1CC36B21E93709F00A04568 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CC36B01E93691000A04568 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,9 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CC36B11E93691000A04568 /* Cocoa.framework in Frameworks */,
-				D1CC36AF1E93690900A04568 /* CoreFoundation.framework in Frameworks */,
-				D1CC36AD1E9368F700A04568 /* Foundation.framework in Frameworks */,
+				D1CC36B21E93709F00A04568 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +152,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -189,10 +185,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -205,7 +201,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -232,10 +228,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -243,13 +239,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = Y69CWUC25B;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -257,13 +253,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = Y69CWUC25B;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.10;
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -286,6 +282,7 @@
 				D1CC36A71E934B3F00A04568 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
