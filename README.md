@@ -1,5 +1,5 @@
 ![version](https://img.shields.io/badge/version-15%2B-D74635)
-![platform](https://img.shields.io/static/v1?label=platform&message=mac-intel%20|%20win-64&color=blue)
+![platform](https://img.shields.io/static/v1?label=platform&message=mac-intel%20&color=blue)
 ![deprecated](https://img.shields.io/badge/-deprecated-inactive)
 
 # 4d-utility-restarter
